@@ -1407,18 +1407,18 @@ Portfolio Section
 	z-index: 9999;
 }
 .portfolio-list .portfolio-overlay span{
-	width: 60px;
-	height: 60px;
-	margin-left: -30px;
-	margin-top: -30px;
+	width: 100%;
+	height: auto;
+	margin-left: -50%;
+	margin-top: 0;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	background: #E66432;
-	border-radius: 50%;
-	font-size: 30px;
+	background: rgba(29, 174, 14, 1);
+	border-radius: 10px;
+	font-size: 24px;
 	text-align: center;
-	line-height: 60px;
+	line-height: 36px;
 	color: #FFF;
 }
 .portfolio-list:hover .portfolio-overlay{
@@ -1432,7 +1432,8 @@ Portfolio Section
 	left: 0;
 	color: #FFF;
 	background: url(images/portfolio-text-bg.png) repeat-x top left;
-	font-size: 16px;
+	font-size: 24px;
+	text-align: center;
 }
 .portfolio-list:hover h3{
 	display: none;
