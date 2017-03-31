@@ -1241,6 +1241,10 @@ Default Section
 .parallax-section .wpcf7-form p{
     margin-bottom: 10px;
 }
+.parallax-section .wpcf7-form .wpcf7-submit:hover{
+
+    background: rgba(29, 174, 14, 1);
+}
 .parallax-section .slider-caption .caption-description a,
 .parallax-section .btn{
 	border-color:inherit;
