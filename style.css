@@ -1431,7 +1431,7 @@ Portfolio Section
 	bottom: 0;
 	left: 0;
 	color: #FFF;
-	background: url(images/portfolio-text-bg.png) repeat-x top left;
+	/*background: url(images/portfolio-text-bg.png) repeat-x top left;*/
 	font-size: 24px;
 	text-align: center;
 }
