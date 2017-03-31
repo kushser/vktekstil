@@ -251,12 +251,13 @@ input[type="submit"] {
 	transition: all 0.3s ease 0s;
     cursor: pointer;
     border:none;
+		border-radius: 10px;
 }
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-
+  background: rgba(29, 174, 14, 1);
 }
 button:focus,
 input[type="button"]:focus,
@@ -316,7 +317,9 @@ Links
 a {
 	color: #E66432;
 }
-
+.team-detail a:hover {
+	font-weight: bold;
+}
 /*--------------------------------------------------------------
 Accessibility
 --------------------------------------------------------------*/
@@ -1076,15 +1079,18 @@ body.parallax-on .wpcf7-not-valid-tip{
 .site-main .comment-navigation a,
 .site-main .paging-navigation a,
 .site-main .post-navigation a{
-	background: #333;
+	background: #e66432;
 	padding: 8px 25px;
 	color: #FFF;
 	text-decoration: none;
 	font-size: 14px;
 	font-family: "Oxygen",sans-serif;
 	display: inline-block;
+	border-radius: 10px;
 }
-
+.site-main .post-navigation a:hover{
+	background: rgba(29, 174, 14, 1);
+}
 /*--------------------------------------------------------------
 Main SLider
 --------------------------------------------------------------*/
@@ -1766,7 +1772,7 @@ Social
 	z-index: 9;
 }
 .social-icons a{
-	background:#333;
+	background:#e66432;
 	height: 30px;
 	width: 30px;
 	margin-bottom: 1px;
@@ -1775,9 +1781,10 @@ Social
 	color:#FFF;
 	display: inline-block;
 	position: relative;
+	border-radius: 5px;
 }
 .social-icons a:hover{
-	background:#e66432
+	background:#333;
 }
 .social-icons a span{
 	background: #333;
